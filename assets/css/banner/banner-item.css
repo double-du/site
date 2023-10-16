@@ -1,0 +1,68 @@
+.banner__item{
+    text-align: center;
+}
+.banner__item:after{
+    font-family: 'FontAwesome';
+    display: block;
+    margin: .5rem;
+    color: var(--text-reverse-color);
+}
+.banner__item--HTML:after{
+    content: '\f13b';
+}
+.banner__item--CSS:after{
+    content: "\f38b";
+}
+.banner__item--SASS:after{
+    content: "\f41e";
+}
+.banner__item--LESS:after{
+    content: "\f41d";
+}
+.banner__item--JS:after{
+    content: "\f3b9";
+}
+.banner__item--PHP:after{
+    content: "\f457";
+}
+.banner__item--Python:after{
+    content: "\f3e2";
+}
+.banner__item--Wordpress:after{
+    content: "\f411";
+}
+.banner__item--Bootstrap:after{
+    content: "\f836";
+}
+.banner__item--MySQL:after{
+    content: "";
+    background-image: url(../../images/mysql.png);
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    margin: .5rem auto;
+}
+.banner__item--Maria:after{
+    content: "";
+    background-image: url(../../images/mysql.png);
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    margin: .5rem auto;
+}
+.banner__item--Postgres:after{
+    content: "";
+    background-image: url(../../images/postgres.png);
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    margin: .5rem auto;
+}
+.banner__item--Oracle:after{
+    content: "";
+    background-image: url(../../images/oracle.png);
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    margin: .5rem auto;
+}

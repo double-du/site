@@ -1,0 +1,12 @@
+:root{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+
+    /* Variáveis */
+    --text-color: #393939;
+    --bg-color: #d9d9d9;
+    --text-reverse-color: #d9d9d9;
+    --bg-reverse-color: #393939;
+}
+

@@ -1,0 +1,16 @@
+.banner__lista{
+    color: var(--text-reverse-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem auto;
+    max-width: 80vw;
+}
+
+/* .banner__lista > *:not(:last-of-type):after{
+    content: "|";
+    margin-left: 1rem;
+} */
