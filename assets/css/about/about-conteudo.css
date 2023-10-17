@@ -1,0 +1,5 @@
+.about__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: .65rem;
+}
