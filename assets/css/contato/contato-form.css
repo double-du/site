@@ -3,5 +3,10 @@
     flex-direction: column;
     gap: .5rem;
     width: 100%;
-    max-width: 30vw;
+}
+
+@media screen and (min-width: 998px){
+    .contato__form{
+        max-width: 32.5vw;
+    }
 }

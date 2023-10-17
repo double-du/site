@@ -1,0 +1,11 @@
+.contato__button{
+    border: 0;
+    padding: .5rem;
+    font-weight: 400;
+}
+
+.contato__button:hover{
+    color: #fff;
+    background-color: blueviolet;
+    cursor: pointer;
+}
