@@ -1,0 +1,21 @@
+.contato__input{
+    box-sizing: 3px 3px 6px 2px rgba(0,0,0,.25);
+    border: 0;
+    display: block;
+    padding: .5rem;
+    max-width: inherit;
+    min-width: 100%;
+    width: auto;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.5);
+    transition: background-color ease .25s;
+}
+
+.contato__input:hover{
+    background-color: rgba(255,255,255,.8);
+}
+
+.contato__input:focus{
+    outline: none;
+    background-color: rgba(255,255,255,1);
+}
