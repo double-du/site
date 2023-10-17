@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="assets/css/banner/banner-lista.css">
     <link rel="stylesheet" href="assets/css/banner/banner-item.css">
     <link rel="stylesheet" href="assets/css/about/about.css">
+    <link rel="stylesheet" href="assets/css/about/about-foto.css">
     <link rel="stylesheet" href="assets/css/about/about-conteudo.css">
 </head>
 <body>
@@ -60,9 +61,13 @@
         </div>
     </header>
     <main>
-        <div class="container">
+        <div class="container"> <!-- ABOUT-->
             <div class="about">
-                <div class="about__foto"></div>
+                <div class="about__foto">
+                    <span class="about__detalhe about__detalhe--anterior"></span>
+                    <img src="" alt="" class="about__foto_principal">
+                    <span class="about__detalhe about__detalhe--posterior"></span>
+                </div>
                 <div class="about__conteudo">
                     <h3 class="titulo about__titulo">Oi! Eu sou o Edu!</h3>
                     <p>Meu nome é Eduardo Augusto Furlaneti. Nasci em 1995 (tenho <span class="about__idade"></span> anos).</p>
@@ -70,8 +75,14 @@
                     <p>Minhas principais stacks são PHP, HTML, CSS3, Javascript 6, PHP 5+ e hoje busco fazer algumas coisas em React e Python.</p>
                     <p>Também tenho proficiencia com bancos de dados MySQL(MariaDB), Oracle, SQL Server e PostgreSQL.</p>
                     <p>Meus estudos mais recentes são em React, Angular, Vue, MongoDB e Python</p>
-                    <p>Você pode conferir meu curriculo completo <a href="#" class="about__link link">clicando aqui</a>.</p>
+                    <p>Você pode conferir meu curriculo completo <a href="assets/files/curriculo-2023.pdf" target="_blank" class="about__link link">clicando aqui</a>.</p>
                 </div>
+            </div>
+        </div>
+        <div class="container"><!--CONTATO-->
+            <h3 class="titulo contato__titulo">Contato</h3>
+            <div class="contato">
+                <form action=""></form>
             </div>
         </div>
     </main>
