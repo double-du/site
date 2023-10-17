@@ -6,6 +6,11 @@
     display: block;
     margin: .5rem;
     color: var(--text-reverse-color);
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    margin: .5rem auto;
+    background-repeat: no-repeat;
 }
 .banner__item--HTML:after{
     content: '\f13b';
@@ -37,32 +42,13 @@
 .banner__item--MySQL:after{
     content: "";
     background-image: url(../../images/mysql.png);
-    background-size: contain;
-    width: 1rem;
-    height: 1rem;
-    margin: .5rem auto;
-}
-.banner__item--Maria:after{
-    content: "";
-    background-image: url(../../images/mysql.png);
-    background-size: contain;
-    width: 1rem;
-    height: 1rem;
-    margin: .5rem auto;
 }
 .banner__item--Postgres:after{
     content: "";
     background-image: url(../../images/postgres.png);
-    background-size: contain;
-    width: 1rem;
-    height: 1rem;
-    margin: .5rem auto;
 }
 .banner__item--Oracle:after{
     content: "";
     background-image: url(../../images/oracle.png);
-    background-size: contain;
-    width: 1rem;
-    height: 1rem;
-    margin: .5rem auto;
+    
 }

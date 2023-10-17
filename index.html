@@ -11,10 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5b18f3dac0.js" crossorigin="anonymous"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="assets/css/common/animate.min.css">
+
     <!-- Base -->
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- Comuns -->
     <link rel="stylesheet" href="assets/css/common/titulo.css">
+    <link rel="stylesheet" href="assets/css/common/container.css">
     <!-- Especificos -->
     <link rel="stylesheet" href="assets/css/banner/banner.css">
     <link rel="stylesheet" href="assets/css/banner/banner-titulo.css">
@@ -24,24 +28,46 @@
 </head>
 <body>
     <header class="banner">
-        <h1 class="banner__titulo titulo">Eduardo Augusto Furlaneti</h1>
-        <h2 class="banner__subtitulo titulo">Desenvolvedor Fullstack</h2>
-        <ul class="banner__lista">
-            <li class="banner__item banner__item--HTML">HTML 5</li>
-            <li class="banner__item banner__item--CSS">CSS 3</li>
-            <li class="banner__item banner__item--SASS">SASS</li>
-            <li class="banner__item banner__item--LESS">LESS</li>
-            <li class="banner__item banner__item--JS">JS 6</li>
-            <li class="banner__item banner__item--PHP">PHP 7+</li>
-            <li class="banner__item banner__item--Python">Python 3</li>
-            <li class="banner__item banner__item--Wordpress">Wordpress</li>
-            <li class="banner__item banner__item--Bootstrap">Bootstrap</li>
-            <li class="banner__item banner__item--MySQL">MySQL</li>
-            <!-- <li class="banner__item banner__item--Maria">Maria DB</li> -->
-            <li class="banner__item banner__item--Postgres">Postgres</li>
-            <li class="banner__item banner__item--Oracle">Oracle DB</li>
-        </ul>
+        <div class="container banner--content">
+            <h1 class="banner__titulo titulo wow fadeInUp">Eduardo Augusto Furlaneti</h1>
+            <h2 class="banner__subtitulo titulo wow fadeInUp">Desenvolvedor Fullstack</h2>
+            <ul class="banner__lista">
+                <li class="banner__item banner__item--HTML
+                    wow fadeInUp" data-wow-delay="1.0s">HTML 5</li>
+                <li class="banner__item banner__item--CSS
+                    wow fadeInUp" data-wow-delay="1.1s">CSS 3</li>
+                <li class="banner__item banner__item--SASS
+                    wow fadeInUp" data-wow-delay="1.15s">SASS</li>
+                <li class="banner__item banner__item--LESS
+                    wow fadeInUp" data-wow-delay="1.2s">LESS</li>
+                <li class="banner__item banner__item--JS
+                    wow fadeInUp" data-wow-delay="1.25s">JS 6</li>
+                <li class="banner__item banner__item--PHP
+                    wow fadeInUp" data-wow-delay="1.3s">PHP 7+</li>
+                <li class="banner__item banner__item--Python
+                    wow fadeInUp" data-wow-delay="1.35s">Python 3</li>
+                <li class="banner__item banner__item--Wordpress
+                    wow fadeInUp" data-wow-delay="1.4s">Wordpress</li>
+                <li class="banner__item banner__item--MySQL
+                    wow fadeInUp" data-wow-delay="1.45s">MySQL</li>
+                <li class="banner__item banner__item--Postgres
+                    wow fadeInUp" data-wow-delay="1.5s">Postgres</li>
+                <li class="banner__item banner__item--Oracle
+                    wow fadeInUp" data-wow-delay="1.55s">Oracle DB</li>
+            </ul>
+        </div>
     </header>
-    
+    <main>
+        <div class="container">
+            <div class="about">
+                <div class="about__foto"></div>
+                <div class="about__texto"></div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>

@@ -1,5 +1,5 @@
-.banner{
-    align-items: center;
+.banner, .banner--content{
+    align-items: left;
     background-color: var(--bg-reverse-color);
     display: flex;
     flex-direction: column;
