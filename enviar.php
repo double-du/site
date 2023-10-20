@@ -2,6 +2,10 @@
 
 require 'libs/phpmailer/PHPMailerAutoload.php';
 
+$nome = $_GET['nome'];
+$email = $_GET['email'];
+$msg = $_GET['msg'];
+
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
 
