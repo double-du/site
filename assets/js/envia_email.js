@@ -17,4 +17,11 @@ async function envia_emails(){
 botao.addEventListener('click', async (e) => {
     e.preventDefault();
     await envia_emails();
+    await limpar_form();
 });
+
+async function limpar_form(){
+    document.querySelector('.contato__input--nome').value = ''
+    document.querySelector('.contato__input--email').value = ''
+    document.querySelector('.contato__input--mensagem').value = ''
+}
