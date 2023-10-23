@@ -39,18 +39,22 @@ $mail->Password = "Site*102030";
 $mail->setFrom('site@eduardoaf.dev.br', 'Eduardo Augusto Furlaneti');
 
 //Set an alternative reply-to address
-// $mail->addReplyTo('replyto@example.com', 'First Last');
+$mail->addReplyTo($email, $nome);
 
 //Set who the message is to be sent to
-$mail->addAddress('site@eduardoaf.dev.br', 'John Doe');
+$mail->addAddress('site@eduardoaf.dev.br', 'Eduardo Roboto');
 
 //Set the subject line
-$mail->Subject = 'Teste de envio';
+$mail->Subject = 'Contato via Site';
 
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 // $mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
-$mail->msgHTML('works');
+$mail->msgHTML("<p style='font-size: 18px; font-family: sans-serif; color: #090909; line-height: 22px'>Oi Edu!</p>
+<p style='font-size: 18px; font-family: sans-serif; color: #090909; line-height: 22px'>Você recebeu um novo contato de <b>$nome</b> pelo email: <i>$email</i></p>
+<p style='font-size: 18px; font-family: sans-serif; color: #090909; line-height: 22px'>Ele disse:</p>
+<p style='font-size: 18px; font-family: sans-serif; color: #090909; line-height: 22px'>\"<i>$msg</i>\"</p>
+<p style='font-size: 18px; font-family: sans-serif; color: #090909; line-height: 22px'>Ao responder esse e-mail, ele será enviado diretamente para $nome</p>");
 
 //Replace the plain text body with one created manually
 // $mail->AltBody = 'This is a plain-text message body';
