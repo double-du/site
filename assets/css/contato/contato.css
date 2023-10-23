@@ -8,6 +8,7 @@
 
 @media screen and (min-width: 998px) {
     .contato{
+        align-items: flex-start ;
         flex-direction: row;
     }
 }
