@@ -9,7 +9,7 @@ if(isset($_GET['lang']) && in_array($_GET['lang'], $available_langs)) {
     $lang = $_COOKIE['lang'];
 }
 
-include "./$lang.php";
+include "lang/$lang.php";
 echo "<!-- including lang/$lang.php -->";
 $t = $translation[$lang];
 ?>
