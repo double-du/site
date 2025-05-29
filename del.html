@@ -6,7 +6,7 @@
     <title>Test :D</title>
 </head>
 <body>
-    <form action="envio.php" method="post" id="contact-form">
+    <form action="send.php" method="post" id="contact-form">
         <input type="text" name="name" value="Edu">
         <input type="email" name="email" value="gBf0l@example.com">
         <input type="text" name="subject" value="Test">
@@ -15,7 +15,7 @@
     </form>
     <script>
         document.querySelector('#contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
+           /* e.preventDefault();
             
             const formData = new FormData(this);
     
@@ -37,7 +37,7 @@
                 alert('Something goes wrong. Please try again. :(');
             });
 
-            this.reset();
+            this.reset();*/
         });
     </script>
 </body>
