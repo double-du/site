@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
     <!--
-        <?= var_dump($lang); ?>
+        <?= var_dump($t); ?>
     -->
 <head>
     <meta charset="UTF-8">
