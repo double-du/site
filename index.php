@@ -246,6 +246,21 @@
             </div>
             
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+                <!-- Skill X -->
+                <?php foreach($t['skills'] as $skill){ ?>
+                    <div class="tech-card p-6 rounded-xl">
+                        <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fab fa-js text-purple-400 text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-100 mb-2"><?= $skill['name'] ?></h3>
+                        <p class="text-gray-400 mb-3"><?= $skill['description'] ?></p>
+                        <div class="w-full bg-gray-800 rounded-full h-2">
+                            <div class="bg-purple-500 h-2 rounded-full" style="width: <?= $skill['level'] ?>%"></div>
+                        </div>
+                    </div>
+                <?php } ?>
+                <?php /*
                 <!-- Skill 1 -->
                 <div class="tech-card p-6 rounded-xl">
                     <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
@@ -270,7 +285,79 @@
                     </div>
                 </div>
                 
-                <!-- ... (outras habilidades com o mesmo padrão) ... -->
+                <!-- Skill 3 -->
+                <div class="tech-card p-6 rounded-xl">
+                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fab fa-node-js text-purple-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-100 mb-2">PHP</h3>
+                    <p class="text-gray-400 mb-3">Because PHP is the web.</p>
+                    <div class="w-full bg-gray-800 rounded-full h-2">
+                        <div class="bg-purple-500 h-2 rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 4 -->
+                <div class="tech-card p-6 rounded-xl">
+                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-database text-purple-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-100 mb-2">Database</h3>
+                    <p class="text-gray-400 mb-3">MongoDB, PostgreSQL, and Firebase experience.</p>
+                    <div class="w-full bg-gray-800 rounded-full h-2">
+                        <div class="bg-purple-500 h-2 rounded-full" style="width: 75%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 5 -->
+                <div class="tech-card p-6 rounded-xl">
+                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fab fa-css3-alt text-purple-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-100 mb-2">CSS & Design</h3>
+                    <p class="text-gray-400 mb-3">Tailwind, SASS, and responsive design principles.</p>
+                    <div class="w-full bg-gray-800 rounded-full h-2">
+                        <div class="bg-purple-500 h-2 rounded-full" style="width: 95%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 6 -->
+                <div class="tech-card p-6 rounded-xl">
+                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-mobile-alt text-purple-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-100 mb-2">Mobile Dev</h3>
+                    <p class="text-gray-400 mb-3">React Native for cross-platform mobile apps.</p>
+                    <div class="w-full bg-gray-800 rounded-full h-2">
+                        <div class="bg-purple-500 h-2 rounded-full" style="width: 70%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 7 -->
+                <div class="tech-card p-6 rounded-xl">
+                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-cloud text-purple-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-100 mb-2">Cloud</h3>
+                    <p class="text-gray-400 mb-3">AWS, Firebase, and deployment pipelines.</p>
+                    <div class="w-full bg-gray-800 rounded-full h-2">
+                        <div class="bg-purple-500 h-2 rounded-full" style="width: 65%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 8 -->
+                <div class="tech-card p-6 rounded-xl">
+                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-code-branch text-purple-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-100 mb-2">Git & DevOps</h3>
+                    <p class="text-gray-400 mb-3">Version control and CI/CD workflows.</p>
+                    <div class="w-full bg-gray-800 rounded-full h-2">
+                        <div class="bg-purple-500 h-2 rounded-full" style="width: 75%"></div>
+                    </div>
+                </div>
+
+                */ ?>
             </div>
         </div>
     </section>
