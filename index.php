@@ -204,7 +204,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-100 mb-6">
-                        <span class="text-purple-400 glow"><?= $t['hi_im'] ?></span> Eduardo
+                        <span class="text-purple-400 glow"><?= $t['hi_im'] ?></span> <?= $t['name'] ?>
                     </h1>
                     <p class="text-lg md:text-xl text-gray-400 mb-8 max-w-lg">
                         <?= $t['tagline'] ?>

@@ -1,5 +1,6 @@
 <?php
 $translation['pt'] = [
+    'name' => 'Edu',
     'home' => 'Home',
     'skills' => 'Habilidades',
     'portfolio' => 'Portfólio',
