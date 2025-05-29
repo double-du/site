@@ -27,7 +27,7 @@ try {
 
     // Remetente e destinatário
     $mail->setFrom('site@eduardoaf.dev.br', 'Site');
-    $mail->addAddress('eduardohppa@gmail.com', "Site");
+    $mail->addAddress('site@eduardoaf.dev.br', "Site");
     
     // Responder para
     $mail->addReplyTo($email, $nome);
