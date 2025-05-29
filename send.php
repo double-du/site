@@ -1,5 +1,5 @@
 <?php
-return json_encode(['success' => false, 'message' => 'Mensagem enviada com sucesso!']); exit();
+echo json_encode(['success' => false, 'message' => 'Mensagem enviada com sucesso!']); exit();
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
