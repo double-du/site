@@ -608,15 +608,6 @@
             });
         });
 
-        // Form submission
-        const form = document.querySelector('.contact-form form');
-        if (form) {
-            form.addEventListener('submit', function(e) {
-                e.preventDefault();
-                alert('Thank you for your message! I will get back to you soon.');
-                form.reset();
-            });
-        }
     </script>
     <script>
         document.querySelector('.year').textContent = new Date().getFullYear();
@@ -624,7 +615,27 @@
     <script>
         document.querySelector('#contact-form').addEventListener('submit', function(e) {
             e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
+            
+            const formData = new FormData(this);
+    
+            fetch('envio.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if(data.success) {
+                    alert(data.message);
+                    this.reset();
+                } else {
+                    alert(data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Erro:', error);
+                alert('Something goes wrong. Please try again. :(');
+            });
+
             this.reset();
         });
     </script>
