@@ -1,6 +1,6 @@
 <?php
 return [
-    'home' => 'Início',
+    'home' => 'Home',
     'skills' => 'Habilidades',
     'portfolio' => 'Portfólio',
     'contact' => 'Contato',
