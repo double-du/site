@@ -21,9 +21,9 @@ try {
     $mail->Host = 'smtp.umbler.com'; // Servidor SMTP
     $mail->SMTPAuth = true;
     $mail->Username = 'site@eduardoaf.dev.br'; // Seu e-mail SMTP
-    $mail->Password = 'site*102030'; // Sua senha SMTP
+    $mail->Password = 'Site*102030'; // Sua senha SMTP
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Ou ENCRYPTION_SMTPS para SSL
-    $mail->Port = 465; // Porta SMTP (587 para TLS, 465 para SSL)
+    $mail->Port = 587; // Porta SMTP (587 para TLS, 465 para SSL)
 
     // Remetente e destinatário
     $mail->setFrom('site@eduardoaf.dev.br', 'Site');
