@@ -228,7 +228,7 @@
                     </div>
                     <div class="absolute -bottom-5 left-10 md:left-20 bg-gray-800 px-4 py-2 rounded-lg shadow-lg border border-gray-700">
                         <div class="flex items-center">
-                            <div class="w-3 h-3 bg-purple-500 rounded-full mr-2 animate-pulse"></div>
+                            <div class="w-3 h-3 bg-green-500 rounded-full mr-2 animate-pulse"></div>
                             <span class="text-sm font-medium text-gray-300"><?= $t['currently_working'] ?></span>
                         </div>
                     </div>
