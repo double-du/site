@@ -34,7 +34,7 @@ try {
 
     // Conteúdo do e-mail
     $mail->isHTML(true);
-    $mail->Subject = utf8_encode('Você tem um contatinho ;D');
+    $mail->Subject = 'Vc tem um contatinho ;D';
     $mail->Body    = "
         <h1>Nova mensagem de contato</h1>
         <p><strong>Nome:</strong> {$nome}</p>
