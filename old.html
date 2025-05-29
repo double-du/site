@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo | DEV</title>
+    <!-- Reset -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b18f3dac0.js" crossorigin="anonymous"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="assets/css/common/animate.min.css">
+
+    <!-- Base -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Comuns -->
+    <link rel="stylesheet" href="assets/css/common/titulo.css">
+    <link rel="stylesheet" href="assets/css/common/container.css">
+    <!-- Especificos -->
+    <link rel="stylesheet" href="assets/css/banner/banner.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-subtitulo.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-lista.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-item.css">
+    
+    <link rel="stylesheet" href="assets/css/about/about.css">
+    <link rel="stylesheet" href="assets/css/about/about-titulo.css">
+    <link rel="stylesheet" href="assets/css/about/about-foto.css">
+    <link rel="stylesheet" href="assets/css/about/about-conteudo.css">
+    
+    <link rel="stylesheet" href="assets/css/contato/contato.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-titulo.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-conteudo.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-form.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-input.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-button.css">
+</head>
+<body>
+    <header class="banner">
+        <div class="container banner--content">
+            <h1 class="banner__titulo titulo wow fadeInUp">Eduardo Augusto Furlaneti</h1>
+            <h2 class="banner__subtitulo titulo wow fadeInUp">Desenvolvedor Fullstack</h2>
+            <ul class="banner__lista">
+                <li class="banner__item banner__item--HTML
+                    wow fadeInUp" data-wow-delay=".50s">HTML 5</li>
+                <li class="banner__item banner__item--CSS
+                    wow fadeInUp" data-wow-delay=".65s">CSS 3</li>
+                <li class="banner__item banner__item--SASS
+                    wow fadeInUp" data-wow-delay=".75s">SASS</li>
+                <li class="banner__item banner__item--LESS
+                    wow fadeInUp" data-wow-delay=".85s">LESS</li>
+                <li class="banner__item banner__item--JS
+                    wow fadeInUp" data-wow-delay=".95s">JS 6</li>
+                <li class="banner__item banner__item--PHP
+                    wow fadeInUp" data-wow-delay="1.05s">PHP 7+</li>
+                <li class="banner__item banner__item--Python
+                    wow fadeInUp" data-wow-delay="1.15s">Python 3</li>
+                <li class="banner__item banner__item--Wordpress
+                    wow fadeInUp" data-wow-delay="1.25s">Wordpress</li>
+                <li class="banner__item banner__item--MySQL
+                    wow fadeInUp" data-wow-delay="1.35s">MySQL</li>
+                <li class="banner__item banner__item--Postgres
+                    wow fadeInUp" data-wow-delay="1.45s">Postgres</li>
+                <li class="banner__item banner__item--Oracle
+                    wow fadeInUp" data-wow-delay="1.55s">Oracle DB</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container"> <!-- ABOUT-->
+            <div class="about">
+                <div class="about__foto">
+                    <span class="about__detalhe about__detalhe--anterior"></span>
+                    <img src="" alt="" class="about__foto_principal">
+                    <span class="about__detalhe about__detalhe--posterior"></span>
+                </div>
+                <div class="about__conteudo">
+                    <h3 class="titulo about__titulo">Oi, eu sou o Edu!</h3>
+                    <p>Meu nome é Eduardo Augusto Furlaneti.<!-- Nasci em 1995 (tenho <span class="about__idade"></span> anos).--></p>
+                    <p>Programo profissionalmente desde meus 18 anos. Comecei com as linguagens C# e Visual Basic, mas foi no HTML / CSS / Javascript que me encontrei. Hoje, atuo como programador fullstack mas gosto mais de mexer com front-end.</p>
+                    <p>Minhas principais stacks são <strong>PHP</strong>, <strong>HTML</strong>, <strong>CSS3</strong>, <strong>Javascript 6</strong>, <strong>PHP 5+</strong> e hoje busco fazer algumas coisas em React e Python.</p>
+                    <p>Também tenho proficiencia com bancos de dados MySQL(MariaDB), Oracle, SQL Server e PostgreSQL.</p>
+                    <p>Meus estudos mais recentes são em React, Angular, Vue, MongoDB e Python</p>
+                    <p>Você pode conferir meu curriculo completo <a href="assets/files/curriculo-2023.pdf" target="_blank" class="about__link link">clicando aqui</a>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container"><!--CONTATO-->
+            <div class="contato">
+                <div class="contato__conteudo">
+                    <h3 class="titulo contato__titulo">Contato</h3>
+                    <p>Fale comigo! Preencha o form <span class="contato__onde"></span> e envie um e-mail para mim.</p>
+                    <p>Nenhum dado seu é salvo, e você não receberá nenhum mailing da minha parte, apenas uma confirmação imediata do envio da sua mensagem.</p>
+                </div>
+                <form action="enviar.php" class="contato__form">
+                    <label for="nome">Nome
+                        <input class="contato__input contato__input--nome" type="text" name="nome" id="nome">
+                    </label>
+                    <label for="email">E-mail
+                        <input class="contato__input contato__input--email" type="email" name="email" id="email">
+                    </label>
+                    <label for="mensagem">Mensagem
+                        <textarea class="contato__input contato__input--mensagem" name="mensagem" id="mensagem" rows="10"></textarea>
+                    </label>
+                    <button class="contato__input contato__button">Enviar</button>
+                    <div class="contato__resposta"></div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/envia_email.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
