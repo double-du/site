@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $t['hi_im'] ?> Eduardo | Dev</title>
+    <title>Oi! Eu sou o Edu | Dev</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
@@ -24,7 +24,131 @@
         }
     </script>
     <style>
-        /* ... (o mesmo CSS) ... */
+        /* Custom CSS for dark tech pattern */
+        body {
+            background-color: #0a0a0a;
+            color: #e5e7eb;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(90deg, rgba(168, 85, 247, 0.05) 1px, transparent 1px),
+                linear-gradient(rgba(168, 85, 247, 0.05) 1px, transparent 1px);
+            background-size: 30px 30px;
+            z-index: -1;
+            opacity: 0.3;
+        }
+        
+        .tech-border {
+            position: relative;
+        }
+        
+        .tech-border::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #a855f7, transparent);
+        }
+        
+        .tech-card {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background: linear-gradient(145deg, #111111, #0d0d0d);
+            border: 1px solid #1e1e1e;
+        }
+        
+        .tech-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(168, 85, 247, 0.2);
+            border-color: #a855f7;
+        }
+        
+        .tech-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(168, 85, 247, 0) 50%);
+        }
+        
+        .circuit-pattern {
+            background-image: 
+                radial-gradient(circle, rgba(168, 85, 247, 0.1) 1px, transparent 1px),
+                radial-gradient(circle, rgba(168, 85, 247, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        /* Contact form styles */
+        .contact-form input,
+        .contact-form textarea {
+            transition: all 0.3s ease;
+            background-color: #111111;
+            border: 1px solid #1e1e1e;
+            color: #e5e7eb;
+        }
+        
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: #a855f7;
+            box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.2);
+            outline: none;
+        }
+        
+        .contact-form button:hover {
+            transform: translateY(-2px);
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #0d0d0d;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #7e22ce;
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #a855f7;
+        }
+        
+        /* Glow effect */
+        .glow {
+            text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+        }
+        
+        .glow-box {
+            box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
+        }
     </style>
 </head>
 <body class="font-sans antialiased">
