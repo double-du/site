@@ -11,5 +11,8 @@ if(isset($_GET['lang']) && in_array($_GET['lang'], $available_langs)) {
 
 $translations = include "./$lang.php";
 echo "<!-- including lang/$lang.php -->";
+echo "<pre>";
+print_r($translations);
+echo "</pre>";
 $t = $translations;
 ?>
