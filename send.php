@@ -7,9 +7,10 @@ require 'path/to/PHPMailer/src/PHPMailer.php';
 require 'path/to/PHPMailer/src/SMTP.php';
 
 // Recebe os dados do formulário
-$nome = $_POST['nome'] ?? '';
+$nome = $_POST['name'] ?? '';
 $email = $_POST['email'] ?? '';
-$mensagem = $_POST['mensagem'] ?? '';
+$assunto = $_POST['subject'] ?? '';
+$mensagem = $_POST['message'] ?? '';
 
 // Configurações do SMTP
 $mail = new PHPMailer(true);
