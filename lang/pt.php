@@ -1,5 +1,5 @@
 <?php
-return [
+$translation['pt'] = [
     'home' => 'Home',
     'skills' => 'Habilidades',
     'portfolio' => 'Portfólio',
