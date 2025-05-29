@@ -421,7 +421,7 @@
             
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
                 <div class="contact-form">
-                    <form class="space-y-6">
+                    <form class="space-y-6" id="contact-form">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
                                 <label for="name" class="block text-sm font-medium text-gray-300 mb-1">Name</label>
@@ -456,7 +456,7 @@
                             </div>
                             <div class="ml-4">
                                 <h3 class="text-lg font-semibold text-gray-100 mb-1">Location</h3>
-                                <p class="text-gray-400">San Francisco, CA</p>
+                                <p class="text-gray-400">São Paulo, Brazil</p>
                             </div>
                         </div>
                     </div>
@@ -468,7 +468,7 @@
                             </div>
                             <div class="ml-4">
                                 <h3 class="text-lg font-semibold text-gray-100 mb-1">Email</h3>
-                                <p class="text-gray-400">hello@techfolio.dev</p>
+                                <p class="text-gray-400">site@eduardoaf.dev.br</p>
                             </div>
                         </div>
                     </div>
@@ -522,8 +522,8 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div class="md:col-span-2">
                     <div class="flex items-center">
-                        <div class="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold text-xl">T</div>
-                        <span class="ml-2 text-xl font-bold text-purple-400">Techfolio</span>
+                        <div class="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold text-xl">E</div>
+                        <span class="ml-2 text-xl font-bold text-purple-400">Eduardo A. F.</span>
                     </div>
                     <p class="mt-4 text-gray-400">
                         Creating beautiful, functional digital experiences with a focus on user-centered design and cutting-edge technology.
@@ -567,7 +567,7 @@
             
             <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-gray-500 text-sm">
-                    &copy; <span class="font-semibold year">2023</span> Techfolio. All rights reserved.
+                    &copy; <span class="font-semibold year">2025</span> Eduardo Augusto Furlaneti. All rights reserved.
                 </p>
                 <div class="mt-4 md:mt-0 flex space-x-6">
                     <a href="#" class="text-gray-500 hover:text-purple-400 text-sm transition duration-300">Privacy Policy</a>
@@ -620,6 +620,13 @@
     </script>
     <script>
         document.querySelector('.year').textContent = new Date().getFullYear();
+    </script>
+    <script>
+        document.querySelector('#contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
     </script>
 </body>
 </html>
