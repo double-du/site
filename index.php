@@ -251,7 +251,7 @@
                 <?php foreach($t['skills'] as $skill){ ?>
                     <div class="tech-card p-6 rounded-xl">
                         <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
-                            <i class="fab fa-js text-purple-400 text-2xl"></i>
+                            <i class="<?=  $skill['fa'] ?> text-purple-400 text-2xl"></i>
                         </div>
                         <h3 class="text-lg font-semibold text-gray-100 mb-2"><?= $skill['name'] ?></h3>
                         <p class="text-gray-400 mb-3"><?= $skill['description'] ?></p>
