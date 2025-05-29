@@ -38,7 +38,6 @@ $translation['pt'] = [
     'analytics_desc' => 'Uma plataforma de visualização de dados com atualizações em tempo real, relatórios personalizados e recursos de exportação.',
     'get_in_touch_section' => 'Entre em Contato',
     'contact_description' => 'Tem um projeto em mente ou quer discutir oportunidades potenciais? Sinta-se à vontade para entrar em contato.',
-    'name' => 'Nome',
     'email' => 'Email',
     'subject' => 'Assunto',
     'message' => 'Mensagem',

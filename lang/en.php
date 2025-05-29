@@ -38,7 +38,6 @@ $translation['en'] = [
     'analytics_desc' => 'A data visualization platform with real-time updates, custom reporting, and export capabilities.',
     'get_in_touch_section' => 'Get In Touch',
     'contact_description' => 'Have a project in mind or want to discuss potential opportunities? Feel free to reach out.',
-    'name' => 'Name',
     'email' => 'Email',
     'subject' => 'Subject',
     'message' => 'Message',
