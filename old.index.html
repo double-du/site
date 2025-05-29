@@ -420,7 +420,8 @@
             </div>
             
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                <div class="contact-form">
+                <div class="contact-form relative">
+                    
                     <form class="space-y-6" id="contact-form">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
@@ -446,6 +447,10 @@
                             </button>
                         </div>
                     </form>
+                    <div id="mail-sent" class="absolute block -bottom-10 transition-opacity opacity-0 p-6 text-center tech-card rounded-xl hover:[animation-play-state:paused]">
+                        Your e-mail was sended :D<br>I'll be in touch as soon as possible
+                        <small class="block text-gray-400 mt-2">Click me to close</small>
+                    </div>
                 </div>
                 
                 <div class="space-y-8">
@@ -613,6 +618,7 @@
         document.querySelector('.year').textContent = new Date().getFullYear();
     </script>
     <script>
+        mailSentCart = document.querySelector('#mail-sent');
         document.querySelector('#contact-form').addEventListener('submit', function(e) {
             e.preventDefault();
             
@@ -625,8 +631,9 @@
             .then(response => response.text())
             .then(data => {
                 if(data.success) {
-                    alert(data.message);
                     console.log(data.message);
+                    mailSentCart.classList.remove('opacity-0');
+                    mailSentCart.classList.add('animate-bounce');
                     this.reset();
                 } else {
                     alert(data.message);
@@ -634,11 +641,15 @@
             })
             .catch(error => {
                 console.error('Erro:', error);
-                alert('Something goes wrong. Please try again. :(');
+                alert('Something goes wrong. Please try again.');
             });
 
             this.reset();
         });
+        mailSentCart.addEventListener('click', function() {
+            mailSentCart.classList.add('opacity-0');
+        });
+        
     </script>
 </body>
 </html>
