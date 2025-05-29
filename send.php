@@ -21,20 +21,20 @@ try {
     $mail->Host = 'smtp.umbler.com'; // Servidor SMTP
     $mail->SMTPAuth = true;
     $mail->Username = 'site@eduardoaf.dev.br'; // Seu e-mail SMTP
-    $mail->Password = 'Site*102030'; // Sua senha SMTP
+    $mail->Password = 'site*102030'; // Sua senha SMTP
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Ou ENCRYPTION_SMTPS para SSL
     $mail->Port = 587; // Porta SMTP (587 para TLS, 465 para SSL)
 
     // Remetente e destinatário
     $mail->setFrom('site@eduardoaf.dev.br', 'Site');
-    $mail->addAddress('site@eduardoaf.dev.br', "Site");
+    $mail->addAddress('eduardohppa@gmail.com', "Site");
     
     // Responder para
     $mail->addReplyTo($email, $nome);
 
     // Conteúdo do e-mail
     $mail->isHTML(true);
-    $mail->Subject = 'Você tem um contatinho ;D';
+    $mail->Subject = utf8_encode('Você tem um contatinho ;D');
     $mail->Body    = "
         <h1>Nova mensagem de contato</h1>
         <p><strong>Nome:</strong> {$nome}</p>
