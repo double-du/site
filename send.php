@@ -1,4 +1,5 @@
 <?php
+return json_encode(['success' => false, 'message' => 'Mensagem enviada com sucesso!']); exit();
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -11,7 +12,6 @@ $nome = $_POST['name'] ?? '';
 $email = $_POST['email'] ?? '';
 $assunto = $_POST['subject'] ?? '';
 $mensagem = $_POST['message'] ?? '';
-return json_encode(['success' => false, 'message' => 'Mensagem enviada com sucesso!']); exit();
 // Configurações do SMTP
 $mail = new PHPMailer(true);
 
