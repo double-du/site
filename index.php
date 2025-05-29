@@ -260,104 +260,6 @@
                         </div>
                     </div>
                 <?php } ?>
-                <?php /*
-                <!-- Skill 1 -->
-                <div class="tech-card p-6 rounded-xl">
-                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
-                        <i class="fab fa-js text-purple-400 text-2xl"></i>
-                    </div>
-                    <h3 class="text-lg font-semibold text-gray-100 mb-2"><?= $t['javascript'] ?></h3>
-                    <p class="text-gray-400 mb-3"><?= $t['javascript_desc'] ?></p>
-                    <div class="w-full bg-gray-800 rounded-full h-2">
-                        <div class="bg-purple-500 h-2 rounded-full" style="width: 90%"></div>
-                    </div>
-                </div>
-                
-                <!-- Skill 2 -->
-                <div class="tech-card p-6 rounded-xl">
-                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
-                        <i class="fab fa-react text-purple-400 text-2xl"></i>
-                    </div>
-                    <h3 class="text-lg font-semibold text-gray-100 mb-2"><?= $t['react'] ?></h3>
-                    <p class="text-gray-400 mb-3"><?= $t['react_desc'] ?></p>
-                    <div class="w-full bg-gray-800 rounded-full h-2">
-                        <div class="bg-purple-500 h-2 rounded-full" style="width: 85%"></div>
-                    </div>
-                </div>
-                
-                <!-- Skill 3 -->
-                <div class="tech-card p-6 rounded-xl">
-                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
-                        <i class="fab fa-node-js text-purple-400 text-2xl"></i>
-                    </div>
-                    <h3 class="text-lg font-semibold text-gray-100 mb-2">PHP</h3>
-                    <p class="text-gray-400 mb-3">Because PHP is the web.</p>
-                    <div class="w-full bg-gray-800 rounded-full h-2">
-                        <div class="bg-purple-500 h-2 rounded-full" style="width: 80%"></div>
-                    </div>
-                </div>
-                
-                <!-- Skill 4 -->
-                <div class="tech-card p-6 rounded-xl">
-                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
-                        <i class="fas fa-database text-purple-400 text-2xl"></i>
-                    </div>
-                    <h3 class="text-lg font-semibold text-gray-100 mb-2">Database</h3>
-                    <p class="text-gray-400 mb-3">MongoDB, PostgreSQL, and Firebase experience.</p>
-                    <div class="w-full bg-gray-800 rounded-full h-2">
-                        <div class="bg-purple-500 h-2 rounded-full" style="width: 75%"></div>
-                    </div>
-                </div>
-                
-                <!-- Skill 5 -->
-                <div class="tech-card p-6 rounded-xl">
-                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
-                        <i class="fab fa-css3-alt text-purple-400 text-2xl"></i>
-                    </div>
-                    <h3 class="text-lg font-semibold text-gray-100 mb-2">CSS & Design</h3>
-                    <p class="text-gray-400 mb-3">Tailwind, SASS, and responsive design principles.</p>
-                    <div class="w-full bg-gray-800 rounded-full h-2">
-                        <div class="bg-purple-500 h-2 rounded-full" style="width: 95%"></div>
-                    </div>
-                </div>
-                
-                <!-- Skill 6 -->
-                <div class="tech-card p-6 rounded-xl">
-                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
-                        <i class="fas fa-mobile-alt text-purple-400 text-2xl"></i>
-                    </div>
-                    <h3 class="text-lg font-semibold text-gray-100 mb-2">Mobile Dev</h3>
-                    <p class="text-gray-400 mb-3">React Native for cross-platform mobile apps.</p>
-                    <div class="w-full bg-gray-800 rounded-full h-2">
-                        <div class="bg-purple-500 h-2 rounded-full" style="width: 70%"></div>
-                    </div>
-                </div>
-                
-                <!-- Skill 7 -->
-                <div class="tech-card p-6 rounded-xl">
-                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
-                        <i class="fas fa-cloud text-purple-400 text-2xl"></i>
-                    </div>
-                    <h3 class="text-lg font-semibold text-gray-100 mb-2">Cloud</h3>
-                    <p class="text-gray-400 mb-3">AWS, Firebase, and deployment pipelines.</p>
-                    <div class="w-full bg-gray-800 rounded-full h-2">
-                        <div class="bg-purple-500 h-2 rounded-full" style="width: 65%"></div>
-                    </div>
-                </div>
-                
-                <!-- Skill 8 -->
-                <div class="tech-card p-6 rounded-xl">
-                    <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
-                        <i class="fas fa-code-branch text-purple-400 text-2xl"></i>
-                    </div>
-                    <h3 class="text-lg font-semibold text-gray-100 mb-2">Git & DevOps</h3>
-                    <p class="text-gray-400 mb-3">Version control and CI/CD workflows.</p>
-                    <div class="w-full bg-gray-800 rounded-full h-2">
-                        <div class="bg-purple-500 h-2 rounded-full" style="width: 75%"></div>
-                    </div>
-                </div>
-
-                */ ?>
             </div>
         </div>
     </section>
@@ -392,7 +294,47 @@
                     </div>
                 </div>
                 
-                <!-- ... (outros projetos com o mesmo padrão) ... -->
+                <!-- Project 2 -->
+                <div class="tech-card rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-800 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1555421689-3f034debb7ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Project 2" class="w-full h-full object-cover opacity-80 hover:opacity-70 transition duration-300">
+                        <div class="absolute inset-0 bg-purple-600 opacity-0 hover:opacity-20 transition duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-gray-100">Task Management App</h3>
+                            <span class="bg-gray-800 text-purple-400 text-xs font-medium px-2.5 py-0.5 rounded">React Native</span>
+                        </div>
+                        <p class="text-gray-400 mb-4">A mobile productivity app with team collaboration features, due date tracking, and notifications.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">React Native</span>
+                            <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Firebase</span>
+                            <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Redux</span>
+                            <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Expo</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="tech-card rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-800 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="Project 3" class="w-full h-full object-cover opacity-80 hover:opacity-70 transition duration-300">
+                        <div class="absolute inset-0 bg-purple-600 opacity-0 hover:opacity-20 transition duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-gray-100">Analytics Dashboard</h3>
+                            <span class="bg-gray-800 text-purple-400 text-xs font-medium px-2.5 py-0.5 rounded">Next.js</span>
+                        </div>
+                        <p class="text-gray-400 mb-4">A data visualization platform with real-time updates, custom reporting, and export capabilities.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Next.js</span>
+                            <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">D3.js</span>
+                            <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">PostgreSQL</span>
+                            <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">AWS</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -451,7 +393,29 @@
                         </div>
                     </div>
                     
-                    <!-- ... (outras informações de contato) ... -->
+                    <div class="tech-card p-6 rounded-xl">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-gray-800 p-3 rounded-lg text-purple-400">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold text-gray-100 mb-1">Email</h3>
+                                <p class="text-gray-400">site@eduardoaf.dev.br</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-card p-6 rounded-xl">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-gray-800 p-3 rounded-lg text-purple-400">
+                                <i class="fas fa-phone-alt text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold text-gray-100 mb-1">Phone</h3>
+                                <p class="text-gray-400">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                    </div>
                     
                     <div class="tech-card p-6 rounded-xl">
                         <div class="flex items-start">
@@ -459,14 +423,25 @@
                                 <i class="fas fa-clock text-xl"></i>
                             </div>
                             <div class="ml-4">
-                                <h3 class="text-lg font-semibold text-gray-100 mb-1"><?= $t['availability'] ?></h3>
-                                <p class="text-gray-400"><?= $t['availability_time'] ?></p>
+                                <h3 class="text-lg font-semibold text-gray-100 mb-1">Availability</h3>
+                                <p class="text-gray-400">Monday - Friday: 9am - 5pm PST</p>
                             </div>
                         </div>
                     </div>
                     
                     <div class="flex space-x-4">
-                        <!-- ... (redes sociais) ... -->
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-purple-400 hover:bg-purple-500 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-purple-400 hover:bg-purple-500 hover:text-white transition duration-300">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-purple-400 hover:bg-purple-500 hover:text-white transition duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-purple-400 hover:bg-purple-500 hover:text-white transition duration-300">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -478,45 +453,97 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div class="md:col-span-2">
-                    <!-- ... (cabeçalho do footer) ... -->
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold text-xl">E</div>
+                        <span class="ml-2 text-xl font-bold text-purple-400">Eduardo A. F.</span>
+                    </div>
                     <p class="mt-4 text-gray-400">
-                        <?= $t['footer_text'] ?>
+                        Creating beautiful, functional digital experiences with a focus on user-centered design and cutting-edge technology.
                     </p>
-                    <!-- ... (redes sociais) ... -->
+                    <div class="mt-6 flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-purple-400">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
                 </div>
                 
                 <div>
-                    <h3 class="text-lg font-semibold text-gray-100 mb-4"><?= $t['quick_links'] ?></h3>
+                    <h3 class="text-lg font-semibold text-gray-100 mb-4">Quick Links</h3>
                     <ul class="space-y-2">
-                        <li><a href="#home" class="text-gray-400 hover:text-purple-400 transition duration-300"><?= $t['home'] ?></a></li>
-                        <!-- ... (outros links) ... -->
+                        <li><a href="#home" class="text-gray-400 hover:text-purple-400 transition duration-300">Home</a></li>
+                        <li><a href="#skills" class="text-gray-400 hover:text-purple-400 transition duration-300">Skills</a></li>
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-purple-400 transition duration-300">Portfolio</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-purple-400 transition duration-300">Contact</a></li>
                     </ul>
                 </div>
                 
                 <div>
-                    <h3 class="text-lg font-semibold text-gray-100 mb-4"><?= $t['services'] ?></h3>
+                    <h3 class="text-lg font-semibold text-gray-100 mb-4">Services</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition duration-300"><?= $t['web_development'] ?></a></li>
-                        <!-- ... (outros serviços) ... -->
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition duration-300">Web Development</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition duration-300">UI/UX Design</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition duration-300">Mobile Apps</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition duration-300">Consulting</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-gray-500 text-sm">
-                    &copy; <span class="font-semibold year">2025</span> Eduardo Augusto Furlaneti. Todos os direitos reservados.
+                    &copy; <span class="font-semibold year">2025</span> Eduardo Augusto Furlaneti. All rights reserved.
                 </p>
                 <div class="mt-4 md:mt-0 flex space-x-6">
-                    <a href="#" class="text-gray-500 hover:text-purple-400 text-sm transition duration-300"><?= $t['privacy_policy'] ?></a>
-                    <a href="#" class="text-gray-500 hover:text-purple-400 text-sm transition duration-300"><?= $t['terms_of_service'] ?></a>
-                    <a href="#" class="text-gray-500 hover:text-purple-400 text-sm transition duration-300"><?= $t['cookies'] ?></a>
+                    <a href="#" class="text-gray-500 hover:text-purple-400 text-sm transition duration-300">Privacy Policy</a>
+                    <a href="#" class="text-gray-500 hover:text-purple-400 text-sm transition duration-300">Terms of Service</a>
+                    <a href="#" class="text-gray-500 hover:text-purple-400 text-sm transition duration-300">Cookies</a>
                 </div>
             </div>
         </div>
     </footer>
+<script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
 
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+
+    </script>
     <script>
-        // Atualiza o script do formulário para português
+        document.querySelector('.year').textContent = new Date().getFullYear();
+    </script>
+    <script>
         mailSentCart = document.querySelector('#mail-sent');
         document.querySelector('#contact-form').addEventListener('submit', function(e) {
             e.preventDefault();
@@ -527,9 +554,10 @@
                 method: 'POST',
                 body: formData
             })
-            .then(response => response.json())
+            .then(response => response.text())
             .then(data => {
                 if(data.success) {
+                    console.log(data.message);
                     mailSentCart.classList.remove('opacity-0');
                     mailSentCart.classList.add('animate-bounce');
                     this.reset();
@@ -539,11 +567,15 @@
             })
             .catch(error => {
                 console.error('Erro:', error);
-                alert('Algo deu errado. Por favor, tente novamente.');
+                alert('Something goes wrong. Please try again.');
             });
+
+            this.reset();
+        });
+        mailSentCart.addEventListener('click', function() {
+            mailSentCart.classList.add('opacity-0');
         });
         
-        // Restante do JavaScript permanece igual...
     </script>
 </body>
 </html>
