@@ -7,6 +7,7 @@
     <title>Oi! Eu sou o Edu | Dev</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <script>
         tailwind.config = {
             theme: {
@@ -245,8 +246,8 @@
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 
                 <!-- Skill X -->
-                <?php foreach($t['skills'] as $skill){ ?>
-                    <div class="tech-card p-6 rounded-xl">
+                <?php foreach($t['skills'] as $key => $skill){ ?>
+                    <div class="tech-card p-6 rounded-xl wow fadeInUp" data-wow-delay="<?= $key * 0.2 ?>s">
                         <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
                             <i class="<?=  $skill['fa'] ?> text-purple-400 text-2xl"></i>
                         </div>
@@ -573,6 +574,10 @@
             mailSentCart.classList.add('opacity-0');
         });
         
+    </script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
     </script>
 </body>
 </html>
