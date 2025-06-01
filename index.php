@@ -265,8 +265,9 @@
             </div>
         </div>
     </section>
-
+                
     <!-- Portfolio Section -->
+     <?php /* ?>
     <section id="portfolio" class="py-20 bg-darker circuit-pattern">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -340,7 +341,7 @@
             </div>
         </div>
     </section>
-
+    <?php */ ?>
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-dark">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
