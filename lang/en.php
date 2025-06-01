@@ -1,6 +1,7 @@
 <?php
 $translation['en'] = [
-    'name' => 'Eduardo',
+    "myself" => "Edu",
+    'name' => 'nome',
     'home' => 'Home',
     'skills' => 'Skills',
     'portfolio' => 'Portfolio',

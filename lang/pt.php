@@ -1,6 +1,7 @@
 <?php
 $translation['pt'] = [
-    'name' => 'Edu',
+    "myself" => "Edu",
+    'name' => 'nome',
     'home' => 'Home',
     'skills' => 'Habilidades',
     'portfolio' => 'Portfólio',
@@ -56,7 +57,8 @@ $translation['pt'] = [
     'terms_of_service' => 'Termos de Serviço',
     'cookies' => 'Cookies',
     'footer_text' => 'Criando experiências digitais bonitas e funcionais com foco em design centrado no usuário e tecnologia de ponta.',
-    'skills' => [
+    'skillslist' => [
+
         'php' => [
             'name' => 'PHP',
             'fa' => 'fab fa-php',
