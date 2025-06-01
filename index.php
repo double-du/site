@@ -154,13 +154,13 @@
 </head>
 <body class="font-sans antialiased">
     <!-- Navigation -->
-    <nav class="bg-darker shadow-sm sticky top-0 z-50 border-b border-gray-900">
+    <nav class="bg-black/30 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-gray-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
                     <div class="flex-shrink-0 flex items-center">
-                        <div class="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold text-xl glow">E</div>
-                        <span class="ml-2 text-xl font-bold text-purple-400">Eduardo A. F.</span>
+                        <!-- <div class="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold text-xl glow">E</div>
+                        <span class="ml-2 text-xl font-bold text-purple-400">Eduardo A. F.</span> -->
                     </div>
                 </div>
                 <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
