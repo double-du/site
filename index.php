@@ -248,13 +248,13 @@
                 <!-- Skill X -->
                 <?php $index = 0;
                 foreach($t['skillslist'] as $skill){ ?>
-                    <div class="tech-card p-6 rounded-xl wow fadeInUp" data-wow-delay="<?= $index * 0.2 ?>s">
+                    <div class="tech-card p-6 rounded-xl flex flex-col wow fadeInUp" data-wow-delay="<?= $index * 0.2 ?>s">
                         <div class="w-14 h-14 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
                             <i class="<?=  $skill['fa'] ?> text-purple-400 text-2xl"></i>
                         </div>
                         <h3 class="text-lg font-semibold text-gray-100 mb-2"><?= $skill['name'] ?></h3>
                         <p class="text-gray-400 mb-3"><?= $skill['description'] ?></p>
-                        <div class="w-full bg-gray-800 rounded-full h-2">
+                        <div class="w-full mt-auto bg-gray-800 rounded-full h-2">
                             <div class="bg-purple-500 h-2 rounded-full mt-auto" style="width: <?= $skill['level'] ?>%"></div>
                         </div>
                     </div>
